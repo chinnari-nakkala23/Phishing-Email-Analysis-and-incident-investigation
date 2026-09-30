@@ -1,0 +1,25 @@
+Phishing Email Analysis – Investigation Notes
+
+1. Email Information
+From: OneCasino <132784@534617.vav.proo55.us.com>
+Subject: Welcome gift inside: 50 spins waiting for you
+Email Type: HTML email
+
+2. Header Analysis
+Sending IP: 141.95.0.46
+Return-Path: bounce@vav.proo55.us.com
+SPF: Pass
+DKIM: Pass for vav.proo55.us.com
+
+3. IP Reputation Analysis
+IP investigated: 141.95.0.46
+VirusTotal result: Some security vendors flagged the IP as malicious.
+Observed detection: Phishing / Malicious
+
+4. URL Analysis
+URL found in email: https://tinyurl.com/mrymsuhv
+VirusTotal result: 3/91 security vendors flagged the URL.
+Observed detections: Phishing / Malicious
+
+5. Initial Assessment
+The email is suspicious and shows characteristics associated with spam/phishing activity. The shortened URL and security-vendor detections require further investigation.
