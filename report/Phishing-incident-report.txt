@@ -1,0 +1,78 @@
+PHISHING EMAIL ANALYSIS & INCIDENT INVESTIGATION
+
+1. Incident Summary
+
+A suspicious email sample was analyzed to identify indicators of phishing or malicious activity. The investigation focused on the email headers, sending IP address, and URL contained in the email.
+
+2. Email Details
+
+Sender:
+OneCasino <132784@534617.vav.proo55.us.com>
+
+Subject:
+Welcome gift inside: 50 spins waiting for you
+
+Email Type:
+HTML email
+
+3. Header Investigation
+
+Sending IP:
+141.95.0.46
+
+Return-Path:
+bounce@vav.proo55.us.com
+
+SPF:
+Pass
+
+DKIM:
+Pass for vav.proo55.us.com
+
+The header information was reviewed using Google Admin Toolbox Messageheader.
+
+4. IP Reputation Investigation
+
+IP Address:
+141.95.0.46
+
+The IP address was investigated using VirusTotal.
+
+VirusTotal showed that some security vendors flagged the IP with malicious or phishing-related classifications, while other vendors reported it as clean.
+
+5. URL Investigation
+
+URL:
+https://tinyurl.com/mrymsuhv
+
+The URL was investigated using VirusTotal without directly opening it.
+
+VirusTotal showed 3/91 security vendors with detections. The observed classifications included Phishing and Malicious.
+
+6. Indicators of Compromise (IOCs)
+
+Sender Domain:
+vav.proo55.us.com
+
+Sending IP:
+141.95.0.46
+
+Suspicious URL:
+https://tinyurl.com/mrymsuhv
+
+7. Investigation Conclusion
+
+The email was assessed as suspicious based on the combination of the email content, shortened URL, sending infrastructure, and security-vendor detections.
+
+The available evidence supports treating the email and its URL as potentially malicious and requiring further investigation before interaction.
+
+8. Evidence Collected
+
+01_real_email_header_analysis.png
+02_virustotal_ip_analysis.png
+03_virustotal_url_analysis.png
+
+9. Tools Used
+
+Google Admin Toolbox Messageheader
+VirusTotal
